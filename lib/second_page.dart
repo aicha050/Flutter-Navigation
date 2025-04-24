@@ -22,7 +22,7 @@ class MySecondPage extends StatelessWidget {
             const Padding(padding: EdgeInsets.only(bottom: 20)),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context); // revient à l'écran précédent
+                Navigator.pop(context);
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.white,
